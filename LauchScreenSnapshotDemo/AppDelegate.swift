@@ -4,7 +4,7 @@
 //
 //  Created by fashion on 2018/11/22.
 //  Copyright © 2018年 shangZhu. All rights reserved.
-//
+// 原文:https://github.com/alexruperez/LaunchScreenSnapshot
 
 import UIKit
 
@@ -16,12 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // LaunchScreenSnapshot.protect()
+         LaunchScreenSnapshot.protect()
         
         // 实现类似支付宝,只需要传一个毛玻璃效果的view
-        let blurView = DynamicBlurView(frame: UIScreen.main.bounds)
-        blurView.blurRadius = 10
-        LaunchScreenSnapshot.protect(with: blurView, trigger: LaunchScreenSnapshot.Trigger.didEnterBackground, animation: LaunchScreenSnapshot.Animation.init(), force: false)
+//        let blurView = DynamicBlurView(frame: UIScreen.main.bounds)
+//        blurView.blurRadius = 10
+//        LaunchScreenSnapshot.protect(with: blurView, trigger: LaunchScreenSnapshot.Trigger.didEnterBackground, animation: LaunchScreenSnapshot.Animation.init(), force: false)
         
         return true
     }

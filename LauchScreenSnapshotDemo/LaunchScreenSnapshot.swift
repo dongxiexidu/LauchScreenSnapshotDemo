@@ -4,7 +4,7 @@
 //
 //  Created by fashion on 2018/11/22.
 //  Copyright © 2018年 shangZhu. All rights reserved.
-//
+// 原文:https://github.com/alexruperez/LaunchScreenSnapshot
 
 import UIKit
 
